@@ -42,7 +42,7 @@ export default async function AccountPage() {
 
       <Separator className="" />
 
-      <form action="/auth/signout" method="post">
+      <form action="/api/auth/signout" method="post">
         <Button variant={"destructive"} className="block w-full" type="submit">
           Logout
         </Button>
